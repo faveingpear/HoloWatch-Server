@@ -1,0 +1,1 @@
+python3 -m http.server 8000 --bind 10.0.0.51 
