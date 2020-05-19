@@ -45,6 +45,13 @@ class HoloLiveMember():
 	# 	self.containerWidget.setLayout(self.containerBox)
 	# 	container.addWidget(self.containerWidget,x,y)
 	
+	def getStreamThumbnail(self):
+		if self.isLive:
+			for videos in self.videoid:
+				return "https://i.ytimg.com/vi/" + videos + "/sddefault.jpg"
+		else:
+			return None
+
 	def openLiveStream(self):
 		if self.isLive:
 			for videos in self.videoid:
@@ -172,7 +179,7 @@ def createUpdateFile(memberlist):
 		json['name'] = member.name
 		json['status'] = member.isLive
 		json['link'] = member.openLiveStream()
-		json['thumbnail'] = None
+		json['thumbnail'] = member.getStreamThumbnail()
 
 		finaljson.append(json)
 

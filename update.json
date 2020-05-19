@@ -1,20 +1,20 @@
 [
     {
         "name": "Matsuri",
-        "status": true,
+        "status": false,
         "link": null,
         "thumbnail": null
     },
     {
         "name": "Coco",
-        "status": true,
-        "link": "https://www.youtube.com/watch?v=T81ZhOaU33E",
+        "status": false,
+        "link": null,
         "thumbnail": null
     },
     {
         "name": "Fubuki",
-        "status": true,
-        "link": "https://www.youtube.com/watch?v=oFSaqMeIDkk",
+        "status": false,
+        "link": null,
         "thumbnail": null
     },
     {
@@ -49,9 +49,9 @@
     },
     {
         "name": "Aki",
-        "status": false,
-        "link": null,
-        "thumbnail": null
+        "status": true,
+        "link": "https://www.youtube.com/watch?v=zJ8ai-jQcO0",
+        "thumbnail": "https://i.ytimg.com/vi/zJ8ai-jQcO0/sddefault.jpg"
     },
     {
         "name": "Miko",
@@ -127,9 +127,9 @@
     },
     {
         "name": "Flare",
-        "status": false,
-        "link": null,
-        "thumbnail": null
+        "status": true,
+        "link": "https://www.youtube.com/watch?v=Ay-56XqVe-k",
+        "thumbnail": "https://i.ytimg.com/vi/Ay-56XqVe-k/sddefault.jpg"
     },
     {
         "name": "Towa",
@@ -139,9 +139,9 @@
     },
     {
         "name": "Luna",
-        "status": false,
-        "link": null,
-        "thumbnail": null
+        "status": true,
+        "link": "https://www.youtube.com/watch?v=Ypc_xKz--fY",
+        "thumbnail": "https://i.ytimg.com/vi/Ypc_xKz--fY/sddefault.jpg"
     },
     {
         "name": "Risu",
@@ -187,9 +187,9 @@
     },
     {
         "name": "Rikka",
-        "status": false,
-        "link": null,
-        "thumbnail": null
+        "status": true,
+        "link": "https://www.youtube.com/watch?v=YfZslkYkkDs",
+        "thumbnail": "https://i.ytimg.com/vi/YfZslkYkkDs/sddefault.jpg"
     },
     {
         "name": "Astel",
@@ -205,8 +205,8 @@
     },
     {
         "name": "Roberu",
-        "status": false,
-        "link": null,
-        "thumbnail": null
+        "status": true,
+        "link": "https://www.youtube.com/watch?v=Ku2e6xGVpbg",
+        "thumbnail": "https://i.ytimg.com/vi/Ku2e6xGVpbg/sddefault.jpg"
     }
 ]
